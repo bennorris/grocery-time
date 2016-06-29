@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>It's Grocery Time</title>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Delius+Unicase:400,700' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+  <div id="titleRow">
+    <h1 id="titleTrack">It's grocery time</h1> 
+    <div id="titleRow2"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+    </div>
+    </div>
+<div class="row">  
+<div class="col-md-6 center-block">
+  <div id="addBox">
+  <form>
+  <h1>add to your list:</h1>
+    <input type='text' id="addList"></input>
+  <div id="errorBox">
+  </div>
+  <div>
+  <p id="firstQuestion">Is this something you:</p>
+  </div>
+  
+  <!--CHECKBOXES-->  
+  <div>
+    <div class='labelDiv'>
+  <input type="checkbox" value="need" class="checkbox" id="needInput">
+  <label for="needInput" class="before">Need</label>
+    </div>
+    <div class="labelDiv">
+  <input type="checkbox" value="want" class="checkbox" id="wantInput">
+  <label for="wantInput" class="before">Want</label>
+  </div>
+    <div class="labelDiv">
+<input type='checkbox' value="dontneed" class="checkbox" id="dontneedInput">
+      <label for="dontneedInput" class="before">Probably shouldn't buy</label>
+    </div>
+</div>
+    <!--END CHECKBOXES-->
+  </form>  
+<div class="buttonAlign">
+  <button type="submit" class="btn" id="submitButton">Add to list</button>
+</div>
+</div>
+</div>
+  
+<!--LIST STARTS HERE-->
+<div class="col-md-6 center-block">
+<div id="needBox">  
+<h1>THINGS YOU NEED:</h1>
+ <div id="smallBox"> 
+   <ul class="grocery1">
+     <li>Rice</li>
+     <li>Coffee</li>
+     <li>Bananas</li>
+  </ul>
+  <ul class="groceriesAdded"> 
+</ul>
+  </div>
+ 
+  <h2>THINGS YOU DON'T NEED BUT WOULD LIKE TO HAVE:</h2>
+   <div id="smallBox">
+  <ul class="grocery2">
+     <li>Chocolate</li>
+     <li>Medjool Dates</li>
+  </ul>
+  <ul class="wantAdded" id="wantAdded">
+</ul>
+  </div>
+ 
+  <h3>THINGS YOU SHOULDN'T BUY, BUT PROBABLY WILL ANYWAY:</h3>
+   <div id="smallBox">
+  <ul class="grocery3">
+     <li>Courvoisier</li>
+     <li>Pumpkin Seed Oil</li>
+  </ul>
+<ul class="dontNeedAdded">
+</ul>
+  </div>
+  
+  </div>
+</div>  
+</div> 
+  </div> 
+  
+  
+  
+  
+</body>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

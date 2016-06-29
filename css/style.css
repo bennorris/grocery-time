@@ -1,0 +1,234 @@
+body {
+  background-color: #0d261a;
+
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+#addList {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #ff5c33;
+  text-align: center;
+}
+
+#addBox {
+  background: #1b4b34;
+  width: 50%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #143927;
+  border-radius: 3%;
+  margin-bottom: 40px;
+}
+
+#addList {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  font-color: black;
+  font-weight: bold;
+}
+
+#firstQuestion {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  color: #0d261a;
+  margin-left: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: normal;
+}
+
+label.before {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.checkbox {
+  display: inline;
+}
+
+.labelDiv {
+  margin-left: 20%;
+}
+
+.buttonAlign {
+  text-align: center; 
+  margin-top: 15px;
+  margin-bottom: 15px;
+ 
+}
+
+#submitButton {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #1b4b34;
+  width: 40%;
+  background-color: white;
+  font-weight: bold;
+}
+
+#submitButton:hover{
+  background-color: black;
+  color: white;
+}
+
+#needBox {
+  background: #1b4b34;
+  width: 50%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #143927;
+  border-radius: 3%;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}  
+ 
+h3 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+  color: #0d261a;
+  margin-left; 10%;
+  
+}
+
+#smallBox {
+  background: white;
+  width: 90%;
+  margin-left: auto; 
+  margin-right: auto;
+  border-radius: 5%;
+  border: 2px solid #143927;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+#titleRow {
+  text-align: center; 
+  width: 100%;
+}
+i {
+  text-align: center;
+  
+}
+.fa-shopping-cart {
+  color: white; 
+  font-size: 60px;
+}
+
+#titleTrack {
+  font-size: 80px;
+}
+
+.animateTime {
+  animation: spin 2s linear;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+    0% { -o-transform: rotate(0deg); }
+    100% { -o-transform: rotate(359deg); }
+}
+
+@-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}
+
+#colorGreen {
+  color: #0d261a;
+}
+
+.checkedOff {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: #e6e6e6;
+}
+
+.deleteAddedItems {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: white;
+  width: 60%;
+  background-color: black;
+  font-weight: bold;
+}
+
+.deleteAddedItems:hover{
+  background-color: white;
+  color: red;
+}
+
+.newItemList {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  color: #1b4b34;
+  width: 40%;
+  background-color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.newItemList:hover{
+  background-color: white;
+  color: red;
+  text-decoration: line-through;
+}
+
+
+
+
+
